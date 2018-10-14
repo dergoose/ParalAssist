@@ -1,0 +1,298 @@
+<svg>
+  <svg id="landing1">
+    <use href="#mixed-text-center-mid" height="75%" fill="fb-green">
+      <set href="#header/text" attributeName="text-buffer" to="Hello!"/>
+      <set href="#copy/text" attributeName="text-buffer" to="Welcome to ParalAssist - your sleep paralysis assistant!"/>
+    </use>
+    <use id="toLanding2" href="#square-button" y="70%" fill="gray">
+      <set href="#text" attributeName="text-buffer" to="Hi!" />
+    </use>  
+  </svg>
+  
+  
+  
+  
+   <svg id="landing2" display = "none">
+    <use href="#mixed-text-center-mid" height="75%" fill="fb-yellow">
+      <set href="#copy/text" attributeName="text-buffer" to="Before we get started, could I have your racing heart rate?"/>
+    </use>
+     <use id="toHelp" href="#square-button" x= "0%" y="70%" width="50%" fill="gray">
+      <set href="#text" attributeName="text-buffer" to="My what?" />
+    </use> 
+    <use id="toBeforeBPM" href="#square-button" x= "50%" y="70%" width="50%" fill="fb-green">
+      <set href="#text" attributeName="text-buffer" to="Yep!" />
+    </use>  
+  </svg>
+  
+  
+  <svg id="landingHelp" display = "none">
+    <use href="#mixed-text-center-mid" height="65%" fill="fb-yellow">
+      <set href="#copy/text" attributeName="text-buffer" to="Try breathing fast and I'll tell your BPM. "/>
+    </use>
+     <text id="hrm-label" class="sensor-label" x="40%" y="60%">Your heart rate:</text> 
+     <text id="hrm-data" class="sensor-data" x="75%" y="60%">{{hrm.heartRate}}</text>
+    <use id="toBeforeBPM2" href="#square-button" y="70%" x="25%" width="50%" fill="fb-green">
+      <set href="#text" attributeName="text-buffer" to="Okay, got it!" />
+    </use>  
+  </svg>
+  
+  <svg id="beforeBPM" display = "none">
+    <use href="#mixed-text-center-mid" height="65%" fill="fb-yellow">
+      <set href="#copy/text" attributeName="text-buffer" to="Thanks! Try inputting your BPM. Don't worry, you can change it anytime."/>
+    </use>
+    <use id="toSetBPM" href="#square-button" y="70%" x="25%" width="50%" fill="gray">
+      <set href="#text" attributeName="text-buffer" to="Next" />
+    </use>  
+  </svg>
+  
+  
+  <svg id="setBPM" display = "none">
+   <use id="tumbler1" href="#tumblerview" pointer-events="visible" x="0%" y="50%-55">
+      <use id="item0" href="#tumbler-item" class="item">
+        <text id="content">0</text>
+      </use>
+      <use id="item1" href="#tumbler-item" class="item">
+        <text id="content">1</text>
+      </use>
+      <use id="item2" href="#tumbler-item" class="item">
+        <text id="content">2</text>
+      </use>
+    <use id="item2" href="#tumbler-item" class="item">
+        <text id="content">3</text>
+    </use>
+  </use>
+    
+  <use id="tumbler2" href="#tumblerview" pointer-events="visible" x="20%" y = "50%-55">
+    <use id="item0" href="#tumbler-item" class="item">
+      <text id="content">0</text>
+    </use>
+    <use id="item1" href="#tumbler-item" class="item">
+      <text id="content">1</text>
+    </use>
+    <use id="item2" href="#tumbler-item" class="item">
+      <text id="content">2</text>
+    </use>
+     <use id="item3" href="#tumbler-item" class="item">
+      <text id="content">3</text>
+    </use>
+    <use id="item4" href="#tumbler-item" class="item">
+      <text id="content">4</text>
+    </use>
+    <use id="item5" href="#tumbler-item" class="item">
+      <text id="content">5</text>
+    </use>
+    <use id="item6" href="#tumbler-item" class="item">
+      <text id="content">6</text>
+    </use>
+    <use id="item7" href="#tumbler-item" class="item">
+      <text id="content">7</text>
+    </use>
+    <use id="item8" href="#tumbler-item" class="item">
+      <text id="content">8</text>
+    </use>
+    <use id="item9" href="#tumbler-item" class="item">
+      <text id="content">9</text>
+    </use>
+  </use>
+    
+  <use id="tumbler3" href="#tumblerview" pointer-events="visible" x="40%" y = "50%-55">
+    <use id="item0" href="#tumbler-item" class="item">
+      <text id="content">0</text>
+    </use>
+    <use id="item1" href="#tumbler-item" class="item">
+      <text id="content">1</text>
+    </use>
+    <use id="item2" href="#tumbler-item" class="item">
+      <text id="content">2</text>
+    </use>
+      <use id="item3" href="#tumbler-item" class="item">
+      <text id="content">3</text>
+    </use>
+    <use id="item4" href="#tumbler-item" class="item">
+      <text id="content">4</text>
+    </use>
+    <use id="item5" href="#tumbler-item" class="item">
+      <text id="content">5</text>
+    </use>
+    <use id="item6" href="#tumbler-item" class="item">
+      <text id="content">6</text>
+    </use>
+    <use id="item7" href="#tumbler-item" class="item">
+      <text id="content">7</text>
+    </use>
+    <use id="item8" href="#tumbler-item" class="item">
+      <text id="content">8</text>
+    </use>
+    <use id="item9" href="#tumbler-item" class="item">
+      <text id="content">9</text>
+    </use>
+    </use>
+   <text  font-size="20" fill="white" x="55%" y="55%">bpm</text> 
+
+   <use id="toMain" href="#square-button" y="35%" x="70%" fill="gray" pointer-events="visible" width="30%">
+    <set href="#text" attributeName="text-buffer" to="Done" />
+   </use>
+  </svg>
+  
+  <svg id="main" display="none">
+     <svg y="70%" height="70">
+        <!-- toggle button OFF -->
+        <use id="off" href="#square-button-toggle" value = "1" fill="fb-red"  >
+          <set href="#text"  attributeName="text-buffer" to="Off" />
+        </use>
+        <!-- toggle button ON -->
+        <use id="on" href="#square-button-toggle" x="50%" fill="fb-green" >
+          <set href="#text"  attributeName="text-buffer" to="On" />
+        </use>
+      </svg>
+    <use id="toSettings" href="#combo-button-upper-right" fill="gray">
+      <set href="combo-button-icon" attributeName="href" to="settings.png"/>
+      <set href="combo-button-icon-press" attributeName="href" to="settingspress.png"/>
+      <set href="combo-button-stroke" attributeName="display" to="inline"/>
+    </use>
+    
+    <text id="hrm-label" class="sensor-label" x="5%" y="60%">BPM:</text> 
+    <text id="mainData" class="sensor-data" x="30%" y="60%">{{hrm.heartRate}}</text>
+    <text  fill="gray" font-size="30" x="0%" y="10%">ParalAssist</text>
+  </svg>
+  
+  
+  <svg id="settings" display="none">  
+    <use href="#scrollview">
+      <use href="#scrollview-item">
+        <use id="toBack" href="#combo-button-upper-right" fill="gray">
+          <set href="combo-button-icon" attributeName="href" to="back.png"/>
+          <set href="combo-button-icon-press" attributeName="href" to="backpress.png"/>
+          <set href="combo-button-stroke" attributeName="display" to="inline"/>
+        </use>
+        <use id="toChangeBPM" href="#square-button" y="0" width="70%" fill="gray">
+          <set href="#text" attributeName="text-buffer" to="Change BPM" />
+        </use>
+        <use id="toVibrate" href="#square-button" y="50%" width="70%" fill="gray">
+          <set href="#text" attributeName="text-buffer" to="Change Vibration" />
+        </use>
+      </use>
+   
+      <use href="#scrollview-item">
+        <use id="toHow" href="#square-button" y="0" width="70%" fill="gray">
+          <set href="#text" attributeName="text-buffer" to="How Do I Use?" />
+        </use>   
+        <use id="toHealth" href="#square-button" y="50%" width="70%" fill="gray">
+          <set href="#text" attributeName="text-buffer" to="Health Information" />
+        </use>  
+      </use>
+    
+      <use href="#scrollview-item">
+        <use id="toAbout" href="#square-button" y="0%" width="70%" fill="gray">
+          <set href="#text" attributeName="text-buffer" to="About" />
+        </use>  
+      </use>
+    </use>
+  </svg>
+  
+  
+  <svg id="changeVibe" display = "none">
+    <use href="#scrollview">
+      <use href="#scrollview-item">
+        <use id="toBackSetting" href="#combo-button-upper-right" fill="gray">
+          <set href="combo-button-icon" attributeName="href" to="back.png"/>
+          <set href="combo-button-icon-press" attributeName="href" to="backpress.png"/>
+          <set href="combo-button-stroke" attributeName="display" to="inline"/>
+        </use>
+        <use href="#mixed-text-left-top" height="80%" fill="fb-yellow">
+          <set href="#copy/text" attributeName="text-buffer" to="Choose a pattern.
+                                                             It's recommended you set your FitBit's vibration on strong."/>
+        </use>
+        <use id="confirmation" href="#square-button" y="50%" width="70%" fill="gray">
+         <set href="#text" attributeName="text-buffer" to="confirmation-max" />
+        </use>
+      </use>
+      <use href="#scrollview-item">
+        <use id="ring" href="#square-button" y="0%" width="70%" fill="gray">
+          <set href="#text" attributeName="text-buffer" to="ring" />
+        </use>         
+        <use id="ping" href="#square-button" y="50%" width="70%" fill="gray">
+          <set href="#text" attributeName="text-buffer" to="ping" />
+        </use>
+      </use>
+      <use href="#scrollview-item">
+        <use id="nudge" href="#square-button" y="0%" width="70%" fill="gray">
+          <set href="#text" attributeName="text-buffer" to="nudge" />
+        </use>
+        <use id="bump" href="#square-button" y="50%" width="70%" fill="gray">
+          <set href="#text" attributeName="text-buffer" to="bump" />
+        </use>  
+      </use>
+    </use>
+  </svg>
+  
+ 
+  <svg id="how" display ="none">
+    <use href="#scrollview">
+      <use href="#scrollview-item">
+        <use href="#mixed-text-center-top" fill="fb-yellow" y="0%">
+          <set href="#copy/text" attributeName="text-buffer" to="How to use                         ParalAssist."/>
+        </use>
+        <use id="toBackSettings2" href="#combo-button-upper-right" fill="gray">
+          <set href="combo-button-icon" attributeName="href" to="back.png"/>
+          <set href="combo-button-icon-press" attributeName="href" to="backpress.png"/>
+          <set href="combo-button-stroke" attributeName="display" to="inline"/>
+        </use>
+        <use href="#mixed-text-center-top"  fill="fb-yellow"  y="50%" font-size = "20">
+          <set href="#copy/text" attributeName="text-buffer" to="ParalAssist is an assistant for your sleep paralysis. Simply input what you consider to be your 'racing heart rate' and that will tell what BPM ParalAssist to watch for."/>
+        </use>
+      </use>
+      <use href="#scrollview-item">
+        <use href="#mixed-text-center-top"  fill="fb-yellow"  y="20%">
+          <set href="#copy/text" attributeName="text-buffer" to="Then, turn on ParalAssist before you sleep and it will keep track of your heart rate. If you happen to become paralyzed, take fast breaths in order to heighten your BPM. This will notify ParalAssist which will wake you via vibrations. "/>
+        </use>
+      </use>
+      <use href="#scrollview-item">
+      </use>
+    </use>
+  </svg>
+  
+  <svg id="health" display ="none">
+    <use href="#scrollview">
+      <use href="#scrollview-item">
+       <use href="#mixed-text-center-top" fill="fb-yellow" y="0%">
+        <set href="#copy/text" attributeName="text-buffer" to="What is                         sleep paralysis?"/>
+       </use>
+       <use id="toBackSettings3" href="#combo-button-upper-right" fill="gray">
+        <set href="combo-button-icon" attributeName="href" to="back.png"/>
+        <set href="combo-button-icon-press" attributeName="href" to="backpress.png"/>
+        <set href="combo-button-stroke" attributeName="display" to="inline"/>
+       </use>
+       <use href="#mixed-text-center-top"  fill="fb-yellow"  y="50%" font-size = "20">
+        <set href="#copy/text" attributeName="text-buffer" to="Sleep paralysis is a feeling of being conscious but unable to move. It occurs when a person passes between stages of wakefulness and sleep."/>
+       </use>
+      </use>
+      <use href="#scrollview-item">
+        <use href="#mixed-text-center-top"  fill="fb-yellow"  y="50%">
+          <set href="#copy/text" attributeName="text-buffer" to="Some people have more extreme forms of sleep paralysis than others. ParalAssist aims to help those with sleep paralysis gain control over their sleep."/>
+        </use>
+      </use>
+      <use href="#scrollview-item">
+      </use>
+    </use>
+  </svg>
+  
+  <svg id="about" display = "none">
+    <use href="#scrollview">
+      <use href="#scrollview-item">
+        <use href="#mixed-text-center-top" fill="fb-yellow" y="0%">
+          <set href="#copy/text" attributeName="text-buffer" to="About                           ParalAssist"/>
+        </use>
+        <use id="toBackSettings4" href="#combo-button-upper-right" fill="gray">
+          <set href="combo-button-icon" attributeName="href" to="back.png"/>
+          <set href="combo-button-icon-press" attributeName="href" to="backpress.png"/>
+          <set href="combo-button-stroke" attributeName="display" to="inline"/>
+        </use>   
+        <use href="#mixed-text-center-top"  fill="fb-yellow"  y="50%" font-size = "20">
+          <set href="#copy/text" attributeName="text-buffer" to="ParalAssist was created by Veronica Gusev for HackUMass 2018."/>
+        </use>
+      </use>
+    </use>
+  </svg>
+</svg>
+
